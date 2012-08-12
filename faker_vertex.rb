@@ -6,7 +6,7 @@ module Faker
       # Example:
       #   Faker::Vertex.description # => "UMSYY"
       #   Faker::Vertex.visited # => true
-      #   Faker::Vertex.distnace # => 9
+      #   Faker::Vertex.distance # => 9
 	 
       def description 
         (0...4).map{65.+(rand(25)).chr}.join

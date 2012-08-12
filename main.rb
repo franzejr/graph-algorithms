@@ -1,6 +1,7 @@
 #Some Graph Examples methods
 require_relative 'graph'
 require_relative 'faker_vertex'
+require_relative 'read_file'
 
   puts "Testing Class Graph"
   g = Graph.new
@@ -14,9 +15,12 @@ require_relative 'faker_vertex'
   puts "Testing Class Vertex"
   
   #hash = {:description=>"" }
-  #v = Vertex.new 
+  #v = Vertex.build
   #v.description = "heaueha"
   #puts v.new
 
   puts Faker::Vertex.description
   puts Faker::Vertex.distance
+  
+  puts "Lendo arquivo"
+  puts ReadFile::Line.read_line
