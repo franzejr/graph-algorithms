@@ -14,6 +14,7 @@ v3,v2/4
 
 It means that We have three vertexes, respectively: v1,v2 and v3.
 And this vertexes are weights: 
+
 w(v1 -> v2) = 1
 w(v1 -> v3) = 2
 

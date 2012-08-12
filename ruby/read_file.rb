@@ -5,7 +5,8 @@ module ReadFile
       def read_line
         current = {:description => "", :text => "", :quality => "", :stats => ""}
         File.open("grafo.txt", "r").each_line do |line|
-          puts line
+          t = line.split("/")
+          t
         end
       end
       

@@ -18,9 +18,7 @@ require_relative 'read_file'
   #v = Vertex.build
   #v.description = "heaueha"
   #puts v.new
-
-  puts Faker::Vertex.description
-  puts Faker::Vertex.distance
   
   puts "Lendo arquivo"
-  puts ReadFile::Line.read_line
+  pesos = ReadFile::Line.read_line
+  puts "pesos" + pesos.to_s
