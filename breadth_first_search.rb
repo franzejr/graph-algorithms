@@ -1,4 +1,3 @@
 def bfs G, v
-  Q = Queue.new
-  
+  Q = Queue.new  
 end
